@@ -2,3 +2,4 @@ pdfplumber
 pydantic
 python-dotenv
 pytest
+reportlab

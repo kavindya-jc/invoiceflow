@@ -1,0 +1,45 @@
+file_name,layout,supplier_name,invoice_number,invoice_date,subtotal,vat_amount,total_amount,num_items,expected_flag,defect
+invoice_001.pdf,B,Ceylon Fresh Foods,CF-1409,2026-01-17,410700,73926.0,484626.0,4,False,
+invoice_002.pdf,C,Lanka Stationers (Pvt) Ltd,INV-2026-2535,2026-10-07,25260,4546.8,29806.8,3,False,
+invoice_003.pdf,D,Lanka Tech Traders,LTT-2026-4611,2026-02-22,185550,33399.0,218949.0,5,False,
+invoice_004.pdf,A,Ceylon Fresh Foods,CF-7224,2026-01-23,95100,17118.0,112218.0,2,False,
+invoice_005.pdf,B,Coconut Grove Catering,CGC-9785,2026-07-05,12800,2304.0,15104.0,2,False,
+invoice_006.pdf,C,Green Valley Packaging,GVP-2139,2026-04-30,12600,2268.0,14868.0,2,False,
+invoice_007.pdf,D,Ceylon Fresh Foods,CF-7227,2026-02-06,231060,41590.8,272650.8,4,False,
+invoice_008.pdf,A,Island Hardware & Tools,IHT/26-9751,2026-06-16,244900,44082.0,288982.0,3,False,
+invoice_009.pdf,B,Lanka Stationers (Pvt) Ltd,INV-2026-4752,2026-02-03,27720,4989.6,32709.6,2,False,
+invoice_010.pdf,C,Green Valley Packaging,GVP-6155,2026-03-13,37650,6777.0,44427.0,3,False,
+invoice_011.pdf,D,Green Valley Packaging,GVP-9830,2026-09-18,51300,9234.0,60534.0,4,False,
+invoice_012.pdf,A,Coconut Grove Catering,CGC-2489,2026-08-05,51400,9252.0,60652.0,2,False,
+invoice_013.pdf,B,Ceylon Fresh Foods,CF-7304,2026-02-27,61960,11152.8,73112.8,5,False,
+invoice_014.pdf,C,Serendib Office Solutions,SOS-26-8123,2026-09-17,69900,12582.0,82482.0,3,False,
+invoice_015.pdf,D,Ceylon Fresh Foods,CF-5889,2026-06-15,350660,63118.8,413778.8,3,False,
+invoice_016.pdf,A,Coconut Grove Catering,CGC-1319,2026-01-30,19200,3456.0,22656.0,2,False,
+invoice_017.pdf,B,Green Valley Packaging,GVP-2290,2026-03-06,78900,14202.0,93102.0,2,False,
+invoice_018.pdf,C,Island Hardware & Tools,IHT/26-8787,2026-04-13,75040,13507.2,88547.2,3,False,
+invoice_019.pdf,D,Serendib Office Solutions,SOS-26-7537,2026-01-11,73410,13213.8,86623.8,4,False,
+invoice_020.pdf,A,Green Valley Packaging,GVP-4608,2026-02-04,10100,1818.0,11918.0,2,False,
+invoice_021.pdf,B,Lanka Stationers (Pvt) Ltd,INV-2026-6413,2026-04-20,23880,4298.4,28178.4,2,False,
+invoice_022.pdf,C,Island Hardware & Tools,IHT/26-8744,2026-08-09,30800,5544.0,36344.0,3,False,
+invoice_023.pdf,D,Royal Cleaning Supplies,RCS-7939,2026-04-09,48000,8640.0,56640.0,5,False,
+invoice_024.pdf,A,Green Valley Packaging,GVP-9786,2026-01-26,351550,63279.0,414829.0,5,False,
+invoice_025.pdf,B,Lanka Stationers (Pvt) Ltd,INV-2026-2528,2026-01-31,353050,63549.0,416599.0,3,False,
+invoice_026.pdf,C,Island Hardware & Tools,IHT/26-7209,2026-08-05,29250,5265.0,34515.0,2,False,
+invoice_027.pdf,D,Coconut Grove Catering,CGC-3536,2026-06-10,70200,12636.0,82836.0,3,False,
+invoice_028.pdf,A,Lanka Stationers (Pvt) Ltd,INV-2026-1821,2026-05-01,149460,26902.8,176362.8,5,False,
+invoice_029.pdf,B,Lanka Tech Traders,LTT-2026-2964,2026-09-25,91500,16470.0,107970.0,3,False,
+invoice_030.pdf,C,Royal Cleaning Supplies,RCS-5272,2026-03-09,23340,4201.2,27541.2,3,False,
+invoice_031.pdf,D,Serendib Office Solutions,SOS-26-8491,2026-10-03,66950,12051.0,79001.0,4,False,
+invoice_032.pdf,A,Green Valley Packaging,GVP-9288,2026-10-06,248700,44766.0,293466.0,4,False,
+invoice_033.pdf,B,Serendib Office Solutions,SOS-26-9666,2026-03-10,11080,1994.4,13074.4,2,False,
+invoice_034.pdf,C,Serendib Office Solutions,SOS-26-2891,2026-05-25,10180,1832.4,12012.4,2,False,
+invoice_035.pdf,D,Green Valley Packaging,GVP-6617,2026-01-27,188900,34002.0,222902.0,3,False,
+invoice_036.pdf,A,Ceylon Fresh Foods,CF-7939,2026-08-07,410700,73926.0,484626.0,4,False,
+invoice_037.pdf,B,Lanka Stationers (Pvt) Ltd,INV-2026-2832,2026-07-09,56800,10224.0,69524.0,2,True,wrong_total
+invoice_038.pdf,C,Island Hardware & Tools,IHT/26-8041,2026-05-08,35160,6328.8,43988.8,3,True,wrong_total
+invoice_039.pdf,D,Ceylon Fresh Foods,CF-6794,2026-07-30,73500,13230.0,86730.0,5,True,line_mismatch
+invoice_040.pdf,A,Green Valley Packaging,GVP-5371,2026-04-24,36000,6480.0,42480.0,3,True,line_mismatch
+invoice_041.pdf,B,Green Valley Packaging,,2026-05-23,42700,7686.0,50386.0,4,True,missing_invoice_number
+invoice_042.pdf,C,,CF-5573,2026-05-14,60270,10848.6,71118.6,4,True,missing_supplier
+invoice_043.pdf,D,Island Hardware & Tools,IHT/26-5349,,34300,6174.0,40474.0,2,True,invalid_date
+invoice_044.pdf,A,Ceylon Fresh Foods,CF-1409,2026-01-23,21350,3843.0,25193.0,2,True,duplicate_number
