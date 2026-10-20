@@ -1,0 +1,4 @@
+pdfplumber
+pydantic
+python-dotenv
+pytest
