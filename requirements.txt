@@ -3,3 +3,4 @@ pydantic
 python-dotenv
 pytest
 reportlab
+google-genai
